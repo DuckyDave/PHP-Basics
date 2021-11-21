@@ -53,13 +53,19 @@
   Exemple
 
   Entrada
+
   1, 2
+
   3, 2
+
   2, 2
 
   Sortida
+
   3
+
   5
+
   8
 
 - Exercici 2
@@ -69,11 +75,50 @@
   Exemple
 
   Entrada
+
   wxyz
+
   a
+
   ab
 
+
   Sortida
+  
   zxyw
+
   a
+
   ba
+
+
+## Nivell 3
+
+- Exercici 1
+
+  Escriu un programa en PHP per convertir una cadena en un array (retallant cada caràcter i eliminant les línies buides).
+
+  Entrada
+
+  Hello world
+
+  Sortida
+
+  array(10) { [0]=> string(1) "H" [1]=> string(1) "e" [2]=> string(1) "l" [3]=> string(1) "l" [4]=> string(1) "o" [5]=> string(1) "W" [6]=> string(1) "o" [7]=> string(1) "r" [8]=> string(1) "l" [9]=> string(1) "d"}
+
+- Exercici 2
+
+  Escriu un programa en PHP que compta el nombre total de vegades que un valor existeix en l'array.
+
+- Exercici 3
+
+  $ X = array (10, 20, 30, 40, 50);
+
+  Elimina un element de l’array anterior. Després d'eliminar l'element, les claus senceres han de ser normalitzades.
+
+  Per example: Eliminant el número 40
+
+  Sortida
+  
+  array(5) { [0]=> int(10) [1]=> int(20) [2]=> int(30) [3]=> int(40) [4]=> int(50) }
+  array(4) { [0]=> int(10) [1]=> int(20) [2]=> int(30) [3]=> int(50) }
